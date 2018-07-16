@@ -94,7 +94,7 @@ s.source        = {:git => "https://github.com/lcjingdi/KnobControl.git", :tag =
 
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.source_files  = "KnobControl"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -136,5 +136,7 @@ s.source        = {:git => "https://github.com/lcjingdi/KnobControl.git", :tag =
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+
+# s.swift_version = "4.0" 
 
 end
