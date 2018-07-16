@@ -8,7 +8,7 @@
 
 import Foundation
 
-class KnobRenderer {
+public class KnobRenderer {
     var color: UIColor = .blue {
         didSet {
             trackLayer.strokeColor = color.cgColor

@@ -52,7 +52,7 @@ import UIKit
    in the sliders value generate continuous update events. */
   public var isContinuous = true
 
-  private let renderer = KnobRenderer()
+  public let renderer = KnobRenderer()
 
   /** Specifies the width in points of the knob control track. Defaults to 2 */
   @IBInspectable public var lineWidth: CGFloat {
